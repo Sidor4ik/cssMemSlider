@@ -61,7 +61,10 @@ transition: all 0.8s ease;
    justify-content: space-between;
    z-index: 10;
 }
-
+.al{
+	width: 120%;
+	height: 120%;
+}
 .labels {
    display: flex;
    flex: 0 1 20%;
@@ -228,7 +231,7 @@ transition: all 0.8s ease;
       }
       .text-items {
          margin-right: 0;
-         align-self:center;
+         align-self:flex-start;
          margin-top: .8em;
          font-weight: 600;
          font-size: 2em;
