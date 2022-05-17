@@ -41,9 +41,9 @@ transition: all 0.8s ease;
 }
 
 .slider-items .item img {
-   max-width: 100%;
+   width: 100%;
    height: auto;
-	max-height: 35em;
+	max-height: 55em;
    border-radius: 5%;
 	padding: 2%;
 }
@@ -208,7 +208,7 @@ transition: all 0.8s ease;
       margin-bottom: 9em;
    }
 	.slider-items .item img {
-		max-height: 30em;
+		max-height: 55em;
 	}
 
 @media (max-width: 50em) {
@@ -219,7 +219,7 @@ transition: all 0.8s ease;
       font-size: 2.2em;
       }
 		.slider-items .item img {
-			max-height: 25em;
+			max-height: 45em;
 		}
 }
 
